@@ -178,7 +178,7 @@ main section.section-video{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    margin-bottom: 14vh;
 }
 
 main section.section-video iframe{
@@ -186,7 +186,6 @@ main section.section-video iframe{
     height: 400px;
     max-width: 900px !important;
     border-radius: 8px;
-    margin-bottom: 14vh;
     border: solid #ffffff10 2px;
     cursor: pointer;
     margin-inline: auto;
