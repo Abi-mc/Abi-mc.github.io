@@ -420,6 +420,7 @@ main section.section-cards .container-cards .card img {
 
     main section.section-video{
         margin: auto;
+        margin-bottom: 14vh;
     }
 
     main section.section-video iframe{
