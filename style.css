@@ -175,17 +175,21 @@ main section.section-intro .text p {
 
 main section.section-video{
     margin: 0 40px;
-    display: grid;
-    place-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-main section.section-video video{
-    width: 90%;
-    max-width: 900px;
+main section.section-video iframe{
+    width: 90% !important;
+    height: 400px;
+    max-width: 900px !important;
     border-radius: 8px;
     margin-bottom: 14vh;
     border: solid #ffffff10 2px;
     cursor: pointer;
+    margin-inline: auto;
 }
 
 
@@ -419,7 +423,7 @@ main section.section-cards .container-cards .card img {
         margin: auto;
     }
 
-    main section.section-video video{
+    main section.section-video iframe{
         width: 100%;
     }
 
